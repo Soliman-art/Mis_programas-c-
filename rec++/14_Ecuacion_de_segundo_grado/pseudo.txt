@@ -1,0 +1,20 @@
+Variables a, b, c, discriminante, raiz1, raiz2
+Inicio
+    Imprimir "Ingrese el coeficiente a:"
+    Leer a
+    Imprimir "Ingrese el coeficiente b:"
+    Leer b
+    Imprimir "Ingrese el coeficiente c:"
+    Leer c
+    discriminante ← b*b - 4*a*c
+    Si discriminante > 0 Entonces
+        raiz1 ← (-b + √discriminante) / (2*a)
+        raiz2 ← (-b - √discriminante) / (2*a)
+        Imprimir "Las raíces son reales y diferentes: ", raiz1, " y ", raiz2
+    Sino Si discriminante = 0 Entonces
+        raiz1 ← -b / (2*a)
+        Imprimir "Las raíces son reales e iguales: ", raiz1
+    Sino
+        Imprimir "Las raíces son complejas y diferentes."
+    FinSi
+Fin

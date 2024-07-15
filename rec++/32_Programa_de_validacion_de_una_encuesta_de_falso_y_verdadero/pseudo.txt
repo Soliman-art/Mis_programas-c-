@@ -1,0 +1,12 @@
+Variables respuesta
+Inicio
+    Imprimir "Responda la siguiente pregunta con verdadero (1) o falso (0):"
+    Leer respuesta
+    Si respuesta = 1 Entonces
+        Imprimir "Su respuesta es verdadera."
+    Sino Si respuesta = 0 Entonces
+        Imprimir "Su respuesta es falsa."
+    Sino
+        Imprimir "Respuesta no válida."
+    FinSi
+Fin

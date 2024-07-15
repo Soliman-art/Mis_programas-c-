@@ -1,0 +1,14 @@
+Variables v1x, v1y, v2x, v2y, sumax, sumay
+Inicio
+    Imprimir "Ingrese la componente x del primer vector:"
+    Leer v1x
+    Imprimir "Ingrese la componente y del primer vector:"
+    Leer v1y
+    Imprimir "Ingrese la componente x del segundo vector:"
+    Leer v2x
+    Imprimir "Ingrese la componente y del segundo vector:"
+    Leer v2y
+    sumax ← v1x + v2x
+    sumay ← v1y + v2y
+    Imprimir "La suma de los vectores es: (", sumax, ", ", sumay, ")"
+Fin

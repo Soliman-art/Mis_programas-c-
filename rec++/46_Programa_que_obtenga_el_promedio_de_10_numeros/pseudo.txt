@@ -1,0 +1,11 @@
+Variables suma, num, i, promedio
+Inicio
+    suma ← 0
+    Para i = 1 Hasta 10 Hacer
+        Imprimir "Ingrese un número:"
+        Leer num
+        suma ← suma + num
+    FinPara
+    promedio ← suma / 10
+    Imprimir "El promedio es: ", promedio
+Fin

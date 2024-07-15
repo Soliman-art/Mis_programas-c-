@@ -1,0 +1,16 @@
+Variables nombre, edad, direccion, telefono
+Inicio
+    Imprimir "Ingrese su nombre:"
+    Leer nombre
+    Imprimir "Ingrese su edad:"
+    Leer edad
+    Imprimir "Ingrese su dirección:"
+    Leer direccion
+    Imprimir "Ingrese su teléfono:"
+    Leer telefono
+    Imprimir "Datos personales:"
+    Imprimir "Nombre: ", nombre
+    Imprimir "Edad: ", edad
+    Imprimir "Dirección: ", direccion
+    Imprimir "Teléfono: ", telefono
+Fin

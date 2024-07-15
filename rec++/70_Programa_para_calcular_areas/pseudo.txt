@@ -1,0 +1,18 @@
+Variables opcion, base, altura, radio, area
+Inicio
+    Imprimir "Seleccione una opción (1: Triángulo, 2: Círculo):"
+    Leer opcion
+    Si opcion = 1 Entonces
+        Imprimir "Ingrese la base y la altura del triángulo:"
+        Leer base, altura
+        area ← (base * altura) / 2
+        Imprimir "El área del triángulo es: ", area
+    Sino Si opcion = 2 Entonces
+        Imprimir "Ingrese el radio del círculo:"
+        Leer radio
+        area ← 3.14159 * radio * radio
+        Imprimir "El área del círculo es: ", area
+    Sino
+        Imprimir "Opción no válida."
+    FinSi
+Fin

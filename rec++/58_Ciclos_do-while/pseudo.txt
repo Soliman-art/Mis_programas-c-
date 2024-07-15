@@ -1,0 +1,8 @@
+Variable i
+Inicio
+    i ← 1
+    Repetir
+        Imprimir i
+        i ← i + 1
+    HastaQue i > 10
+Fin

@@ -1,0 +1,15 @@
+Variables num1, num2, num3, num4, num5, promedio
+Inicio
+    Imprimir "Ingrese el primer número:"
+    Leer num1
+    Imprimir "Ingrese el segundo número:"
+    Leer num2
+    Imprimir "Ingrese el tercer número:"
+    Leer num3
+    Imprimir "Ingrese el cuarto número:"
+    Leer num4
+    Imprimir "Ingrese el quinto número:"
+    Leer num5
+    promedio ← (num1 + num2 + num3 + num4 + num5) / 5
+    Imprimir "El promedio es: ", promedio
+Fin

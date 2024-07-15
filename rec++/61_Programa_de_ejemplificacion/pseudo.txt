@@ -1,0 +1,14 @@
+Variables opcion, a, b
+Inicio
+    Imprimir "Seleccione una opción (1: Suma, 2: Resta):"
+    Leer opcion
+    Imprimir "Ingrese dos números:"
+    Leer a, b
+    Si opcion = 1 Entonces
+        Imprimir "La suma es: ", a + b
+    Sino Si opcion = 2 Entonces
+        Imprimir "La resta es: ", a - b
+    Sino
+        Imprimir "Opción no válida."
+    FinSi
+Fin

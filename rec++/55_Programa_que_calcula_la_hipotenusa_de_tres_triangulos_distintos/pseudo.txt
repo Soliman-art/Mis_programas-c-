@@ -1,0 +1,17 @@
+Variables a1, b1, a2, b2, a3, b3, h1, h2, h3
+Inicio
+    Imprimir "Ingrese los catetos del primer triángulo:"
+    Leer a1, b1
+    h1 ← √(a1^2 + b1^2)
+    Imprimir "La hipotenusa del primer triángulo es: ", h1
+    
+    Imprimir "Ingrese los catetos del segundo triángulo:"
+    Leer a2, b2
+    h2 ← √(a2^2 + b2^2)
+    Imprimir "La hipotenusa del segundo triángulo es: ", h2
+    
+    Imprimir "Ingrese los catetos del tercer triángulo:"
+    Leer a3, b3
+    h3 ← √(a3^2 + b3^2)
+    Imprimir "La hipotenusa del tercer triángulo es: ", h3
+Fin

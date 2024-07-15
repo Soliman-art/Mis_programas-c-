@@ -1,0 +1,10 @@
+Variable a, b
+Inicio
+    Imprimir "Ingrese dos números:"
+    Leer a, b
+    Si a > b Entonces
+        Imprimir a, " es mayor que ", b
+    Sino
+        Imprimir a, " no es mayor que ", b
+    FinSi
+Fin

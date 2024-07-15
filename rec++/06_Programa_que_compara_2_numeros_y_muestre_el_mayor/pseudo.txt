@@ -1,0 +1,12 @@
+Variables num1, num2
+Inicio
+    Imprimir "Ingrese el primer número:"
+    Leer num1
+    Imprimir "Ingrese el segundo número:"
+    Leer num2
+    Si num1 > num2 Entonces
+        Imprimir "El mayor es: ", num1
+    Sino
+        Imprimir "El mayor es: ", num2
+    FinSi
+Fin

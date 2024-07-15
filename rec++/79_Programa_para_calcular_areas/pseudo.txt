@@ -1,0 +1,32 @@
+Inicio
+    Mostrar menú de opciones:
+        1. Calcular área de un cuadrado
+        2. Calcular área de un rectángulo
+        3. Calcular área de un círculo
+        4. Salir
+
+    Leer opción del usuario
+
+    Mientras opción != 4 hacer
+        Si opción == 1 entonces
+            Leer lado del cuadrado
+            Calcular área = lado * lado
+            Mostrar área
+        FinSi
+
+        Si opción == 2 entonces
+            Leer base y altura del rectángulo
+            Calcular área = base * altura
+            Mostrar área
+        FinSi
+
+        Si opción == 3 entonces
+            Leer radio del círculo
+            Calcular área = π * radio * radio
+            Mostrar área
+        FinSi
+
+        Mostrar menú de opciones nuevamente
+        Leer opción del usuario
+    FinMientras
+Fin

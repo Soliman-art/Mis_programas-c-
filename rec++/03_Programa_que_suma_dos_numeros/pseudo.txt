@@ -1,0 +1,9 @@
+Variables num1, num2, suma
+Inicio
+    Imprimir "Ingrese el primer número:"
+    Leer num1
+    Imprimir "Ingrese el segundo número:"
+    Leer num2
+    suma ← num1 + num2
+    Imprimir "La suma es: ", suma
+Fin

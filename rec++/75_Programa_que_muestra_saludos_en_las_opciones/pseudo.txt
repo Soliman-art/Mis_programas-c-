@@ -1,0 +1,10 @@
+Variable opcion
+Inicio
+    Imprimir "Seleccione una opción (1: Hola, 2: Adiós):"
+    Leer opcion
+    Segun opcion Hacer
+        1: Imprimir "Hola"
+        2: Imprimir "Adiós"
+        Otro: Imprimir "Opción no válida."
+    FinSegun
+Fin
